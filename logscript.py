@@ -1,4 +1,4 @@
-from selenium import webdriver
+mplefrom selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -9,7 +9,7 @@ def login_and_logout():
     driver = webdriver.Firefox(executable_path="C:\\Users\\centr\\OneDrive\\Documents\\login\\geckodriver.exe")
 
     # Replace 'http://example.com' with the URL of your login page
-    url = 'https://lms.careertiq.com/'
+    url = 'http://example.com'
     driver.get(url)
 
     def login():
