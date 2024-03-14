@@ -6,10 +6,10 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def login_and_logout():
     # Set up Firefox WebDriver
-    driver = webdriver.Firefox(executable_path="C:\\Users\\centr\\OneDrive\\Documents\\login\\geckodriver.exe")
+    driver = webdriver.Firefox(executable_path="path to geko drive") # change
 
     # Replace 'http://example.com' with the URL of your login page
-    url = 'http://example.com'
+    url = 'http://example.com' # change
     driver.get(url)
 
     def login():
